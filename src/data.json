@@ -1,0 +1,122 @@
+{
+  "siteName": "Yohann Bethoule",
+  "infos": {
+    "name": "Yohann Bethoule",
+    "subtitle": "Développeur web",
+    "mail": "yohann.bethoule@gmail.com",
+    "github": "https://github.com/YohannBethoule",
+    "linkedin": "https://www.linkedin.com/in/yohann-bethoule-89a9b4171",
+    "city": "Nantes",
+    "postalCode": "44000",
+    "phone": "(+33)6 12  31 25 54",
+    "country": "France",
+    "description": "Je suis un développeur web basé à Nantes."
+  },
+  "studies": {
+    "title": "Formations",
+    "icon": "graduation-cap",
+    "data": [
+      {
+        "title": "Licence Professionnelle Développeur Web et Big Data",
+        "date": 2019,
+        "place": "IUT de Limoges",
+        "main_subjects": [
+          "Langages: HTML5, CSS3, JavaScript, PHP", "Bases de données: SQL, MongoDB, Cassandra", "Framework: Symfony, Node.JS, Bootstrap, Angular.JS, Vue.JS"
+        ],
+        "secondary_subjects": [
+          "Qualité web, Création d'entreprise"
+        ]
+      },
+      {
+        "title": "DUT Informatique",
+        "date": 2018,
+        "place": "IUT de Clermont-Ferrand",
+        "main_subjects": [
+          "Langages: HTML5, CSS3, JavaScript, PHP, C, C#, XAML, Java", "Bases de données SQL", "Modélisation: Merise, UML"
+        ],
+        "secondary_subjects": [
+          "Langages: Ruby, Pro-C", "Gestion d'entreprise"
+        ]
+      }
+    ]
+  },
+  "jobs": {
+    "title": "Expériences professionnelles",
+    "icon": "briefcase",
+    "data": [
+      {
+        "title": "Développeur web full-stack",
+        "date": "Depuis juin 2021",
+        "place": "Nantes",
+        "company": "ITEA",
+        "description": "Poste de développeur web full-stack orienté back-end dans une entreprise éditant une solution de gestion à destination des centrales de réservation touristique.",
+        "technos": "PHP5, AngularJS, VueJs, bases de données SQL et Informix"
+      },
+      {
+        "title": "Développeur web full-stack",
+        "date": "De novembre 2020 à juin 2021",
+        "place": "Nantes",
+        "company": "Intellia",
+        "description": "Poste de développeur web full-stack orienté back-end dans une agence de développement digitale. Nous travaillons principalement sur des applications métiers, dont plusieurs projets d'intranet.",
+        "technos": "Visual Basic avec ASP.NET, JavaScript et Jquery, Bootstrap4, base de données SQL Server."
+      },
+      {
+        "title": "Développeur web back-end en alternance",
+        "date": "D'aout 2018 à août 2019",
+        "place": "Limoges",
+        "company": "Tripnity",
+        "description": "Poste de développeur en contrat de professionnalisation dans la cade de ma licence professionnelle. J'étais présent dans l'entreprise 36 semaines durant cette période. Développement d'une plateforme interne de support client pour le produit Iconosquare.",
+        "technos": "PHP7 avec ZendFramework, JavaScript et Jquery, HTML5/CSS3 avec Sass, bases de données MySQL et Cassandra."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Compétences",
+    "icon": "align-left",
+    "data": [
+      {
+        "label": "Back-end",
+        "skillset": ["PHP", "Python", ".NET"]
+      },
+      {
+        "label": "Front-end",
+        "skillset": ["React", "VueJs", "Bootstrap", "React-native (mobile)"]
+      },
+      {
+        "label": "Tools",
+        "skillset": ["Git", "Docker", "Méthode agile"]
+      }
+    ]
+  },
+  "projects" : {
+    "title": "Projets",
+    "icon": "cogs",
+    "data": [
+      {
+        "title": "AoE 4 Analytics",
+        "short": "Projet personnel depuis décembre 2021. ",
+        "long": "Application web permettant de retrouver des statistiques sur les performances des joueurs du jeu en ligne Age of Empire 4. ",
+        "url": "https://www.aoe4analytics.com",
+        "github": "https://github.com/YohannBethoule/aoe4_stats",
+        "imgName": "aoe4analytics",
+        "technos": ["VueJS", "Vuetify", "Vuex"]
+      },
+      {
+        "title": "Plateforme de gestion pour les centrales de réservation touristique",
+        "short": "ITEA",
+        "imgName": "itea",
+        "long": "J'ai participé à l'évolution d'une application web permettant aux centrales de réservation touristique comme les labels Gîtes de France de gérer leurs ressources.\nCe projet existant depuis plus de 20 et étant en constante évolution depuis sa création, j'ai appris à conjuguer remboursement de la dette technique et développement de fonctionnalités métiers complexes.",
+        "url": "https://itea.fr/",
+        "technos": ["VueJS", "AngularJS", "Bootstrap", "PHP", "SQL"]
+      },
+      {
+        "title": "Plateforme de support client",
+        "short": "Iconosquare",
+        "imgName": "iconosquare",
+        "url": "https://support.iconosquare.com/",
+        "long": "Développement d'une plateforme interne de support client: gestion du ticketing et des articles de la FAQ (CRM). J'ai participé à la conception des fonctionnalités de l'application en lien avec l'équipe responsable du support client basée à Berlin, ainsi qu'au maintien de l'application et son évolution après son déploiement.",
+        "technos": ["jQuery", "PHP", "ZendFramework", "SQL", "Cassandra"]
+      }
+    ]
+  }
+}
