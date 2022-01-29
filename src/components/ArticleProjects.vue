@@ -1,5 +1,5 @@
 <template>
-    <carousel class="m-10">
+    <carousel class="m-10" :mouse-drag="false">
       <slide v-for="project in projects.data" :key="project.title">
           <div class="m-10 flex flex-col space-y-5">
             <h1 class="text-3xl">{{project.title}}</h1>
@@ -38,6 +38,14 @@ const imgUrl = (name) => new URL('/images/projects/'+name+'.png', import.meta.ur
 .carousel__prev--in-active,
 .carousel__next--in-active {
   display: none;
+}
+
+
+.carousel__prev:hover,
+.carousel__next:hover {
+  color:lightgrey;
+  border-color:lightgrey;
+  box-shadow: 0 0 8px white;
 }
 
 .carousel__slide {

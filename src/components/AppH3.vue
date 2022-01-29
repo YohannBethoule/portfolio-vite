@@ -1,12 +1,12 @@
 <template>
-  <h1 class="text-4xl md:text-6xl font-bold">
+  <h3 class="text-xl md:text-3xl">
     <slot></slot>
-  </h1>
+  </h3>
 </template>
 
 <script>
 export default {
-  name: "AppH1"
+  name: "AppH3"
 }
 </script>
 
