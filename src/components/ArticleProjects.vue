@@ -1,25 +1,35 @@
 <template>
-    <carousel class="m-10" :mouse-drag="false">
-      <slide v-for="project in projects.data" :key="project.title">
-          <div class="m-10 flex flex-col space-y-5">
-            <h1 class="text-3xl">{{project.title}}</h1>
-            <h2 class="text-2xl"><a :href="project.url" target="_blank" class="hover:text-blue-400">{{project.url}}</a></h2>
-            <img v-if="project.imgName" :src="'/images/projects/' + project.imgName + '.png'" class="w-1/2 mx-auto"/>
-            <div>{{project.short}}</div>
-            <div>{{project.long}}</div>
-            <div class="flex space-x-5 mt-5 justify-center">
-              <SkillChip v-for="skill in project.technos">{{skill}}</SkillChip>
-            </div>
-            <AppLink class="text-5xl m-5 hover:text-blue-400"><font-awesome-icon :icon="['fab', 'github']"/></AppLink>
+  <carousel class="m-10 hidden md:block" :mouse-drag="false">
+    <slide v-for="project in projects.data" :key="project.title">
+        <div class="m-10 flex flex-col space-y-5">
+          <h1 class="text-3xl">{{project.title}}</h1>
+          <h2 class="text-2xl"><AppLink :href="project.url">{{project.url}}</AppLink></h2>
+          <img v-if="project.imgName" :src="'/images/projects/' + project.imgName + '.png'" class="w-1/2 mx-auto"/>
+          <div>{{project.short}}</div>
+          <div>{{project.long}}</div>
+          <div class="flex space-x-5 mt-5 justify-center">
+            <SkillChip v-for="skill in project.technos">{{skill}}</SkillChip>
           </div>
+          <AppLink class="text-5xl m-5 hover:text-blue-400"><font-awesome-icon :icon="['fab', 'github']"/></AppLink>
+        </div>
 
-      </slide>
+    </slide>
 
-      <template #addons>
-        <navigation />
-        <pagination />
-      </template>
-    </carousel>
+    <template #addons>
+      <navigation />
+      <pagination />
+    </template>
+  </carousel>
+  <section  v-for="project in projects.data" :key="project.title" class="md:hidden">
+    <AppSection :title="project.title"
+                :date="project.short">
+      <h2 class="text-lg"><AppLink :href="project.url">{{project.url}}</AppLink></h2>
+      <div>{{project.long}}</div>
+      <div class="flex flex-wrap mt-5">
+        <SkillChip v-for="skill in project.technos" class="mr-5 mb-5">{{skill}}</SkillChip>
+      </div>
+    </AppSection>
+  </section>
 
 </template>
 
