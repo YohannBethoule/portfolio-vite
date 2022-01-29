@@ -4,13 +4,13 @@
           <div class="m-10 flex flex-col space-y-5">
             <h1 class="text-3xl">{{project.title}}</h1>
             <h2 class="text-2xl"><a :href="project.url" target="_blank" class="hover:text-blue-400">{{project.url}}</a></h2>
-            <img v-if="project.imgName" :src="imgUrl(project.imgName)" class="w-1/2 mx-auto"/>
+            <img v-if="project.imgName" :src="'/images/projects/' + project.imgName + '.png'" class="w-1/2 mx-auto"/>
             <div>{{project.short}}</div>
             <div>{{project.long}}</div>
             <div class="flex space-x-5 mt-5 justify-center">
               <SkillChip v-for="skill in project.technos">{{skill}}</SkillChip>
             </div>
-            <a v-if="project.github" :href="project.github" target="_blank" class="text-5xl m-5 hover:text-blue-400"><font-awesome-icon :icon="['fab', 'github']"/></a>
+            <AppLink class="text-5xl m-5 hover:text-blue-400"><font-awesome-icon :icon="['fab', 'github']"/></AppLink>
           </div>
 
       </slide>
@@ -29,8 +29,8 @@ import AppSection from "./AppSection.vue";
 import SkillChip from "./SkillChip.vue";
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
-
-const imgUrl = (name) => new URL('../assets/projects/'+name+'.png', import.meta.url).href
+import AppLink from "./AppLink.vue";
+const imgUrl = (name) => new URL('/images/projects/'+name+'.png', import.meta.url).href
 </script>
 
 <style>

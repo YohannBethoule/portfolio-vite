@@ -1,6 +1,6 @@
 <template>
-  <div class="m-10">
-    <h1 class="text-3xl">> {{title}}<span class="text-red text-2xl">, {{date}}</span></h1>
+  <div class="my-10">
+    <AppH2>> {{title}}<span class="text-red-500 text-2xl">, {{date}}</span></AppH2>
     <h2 class="text-2xl">{{place}}</h2>
     <p>
       <slot></slot>
@@ -11,6 +11,8 @@
 </template>
 
 <script setup>
+import AppH2 from "./AppH2.vue";
+
 const props = defineProps({
   title: String,
   date: String,

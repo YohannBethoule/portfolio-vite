@@ -76,15 +76,15 @@
     "data": [
       {
         "label": "Back-end",
-        "skillset": ["PHP", "Python", ".NET"]
+        "skillset": ["PHP", "Python", ".NET", "Symfony", "Django", "API REST"]
       },
       {
         "label": "Front-end",
-        "skillset": ["React", "VueJs", "Bootstrap", "React-native (mobile)"]
+        "skillset": [ "VueJs","React", "React-native (mobile)", "Bootstrap", "TailwindCSS"]
       },
       {
         "label": "Tools",
-        "skillset": ["Git", "Docker", "Méthode agile"]
+        "skillset": ["Git", "Docker", "Wix", "Méthode agile"]
       }
     ]
   },
