@@ -80,10 +80,10 @@
       },
       {
         "label": "Front-end",
-        "skillset": [ "VueJs","React", "React-native (mobile)", "Bootstrap", "TailwindCSS"]
+        "skillset": [ "Vue","React", "React-native (mobile)", "Bootstrap", "TailwindCSS"]
       },
       {
-        "label": "Tools",
+        "label": "Outils",
         "skillset": ["Git", "Docker", "Wix", "Méthode agile"]
       }
     ]
@@ -107,7 +107,7 @@
         "imgName": "itea",
         "long": "J'ai participé à l'évolution d'une application web permettant aux centrales de réservation touristique comme les labels Gîtes de France de gérer leurs ressources.\nCe projet existant depuis plus de 20 et étant en constante évolution depuis sa création, j'ai appris à conjuguer remboursement de la dette technique et développement de fonctionnalités métiers complexes.",
         "url": "https://itea.fr/",
-        "technos": ["VueJS", "AngularJS", "Bootstrap", "PHP", "SQL"]
+        "technos": ["Vue", "AngularJS", "Bootstrap", "PHP", "SQL"]
       },
       {
         "title": "Plateforme de support client",
