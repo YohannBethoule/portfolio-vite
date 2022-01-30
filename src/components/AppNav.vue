@@ -4,7 +4,7 @@
     <nav class="flex flex-col text-3xl h-full">
       <button class="ml-auto mr-3 text-5xl hover:underline hover:font-bold" @click="close()" >&times;</button>
       <ul class="flex flex-col space-y-10 px-3 justify-center my-auto">
-        <li v-for="nav in navigation" :key="nav.title">
+        <li v-for="nav in navigation" :key="nav.title" class="text-center">
           <AppNavLink  @click="goTo(nav.anchor)" :icon="nav.icon">{{ nav.title }}</AppNavLink>
         </li>
       </ul>
