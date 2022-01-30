@@ -10,9 +10,10 @@
 </template>
 
 <script setup>
-import {jobs} from "../data.json"
 import AppSection from "./AppSection.vue";
-
+const props = defineProps({
+  jobs: Object
+})
 </script>
 
 <style scoped>

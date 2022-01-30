@@ -11,9 +11,10 @@
 </template>
 
 <script setup>
-import {studies} from "../data.json"
 import AppSection from "./AppSection.vue";
-
+const props = defineProps({
+  studies: Object
+})
 </script>
 
 <style scoped>

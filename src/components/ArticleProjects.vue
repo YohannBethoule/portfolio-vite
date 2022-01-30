@@ -7,10 +7,10 @@
           <img v-if="project.imgName" :src="'/images/projects/' + project.imgName + '.png'" class="w-1/2 mx-auto"/>
           <div>{{project.short}}</div>
           <div>{{project.long}}</div>
-          <div class="flex space-x-5 mt-5 justify-center">
+          <div class="flex space-x-5 mt-5 justify-center h-16">
             <SkillChip v-for="skill in project.technos">{{skill}}</SkillChip>
           </div>
-          <AppLink class="text-5xl m-5" v-if="project.github" :href="project.github"><font-awesome-icon :icon="['fab', 'github']"/></AppLink>
+          <AppLink class="text-5xl mb-5" v-if="project.github" :href="project.github"><font-awesome-icon :icon="['fab', 'github']"/></AppLink>
         </div>
 
     </slide>
@@ -34,13 +34,14 @@
 </template>
 
 <script setup>
-import {projects} from "../data.json"
 import AppSection from "./AppSection.vue";
 import SkillChip from "./SkillChip.vue";
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
 import AppLink from "./AppLink.vue";
-const imgUrl = (name) => new URL('/images/projects/'+name+'.png', import.meta.url).href
+const props = defineProps({
+  projects: Object
+})
 </script>
 
 <style>

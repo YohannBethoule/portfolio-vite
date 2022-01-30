@@ -21,11 +21,14 @@
 </template>
 
 <script setup>
-import {infos} from "../data.json"
 import AppH1 from "./AppH1.vue";
 import AppH2 from "./AppH2.vue";
 import AppH3 from "./AppH3.vue";
 import AppLink from "./AppLink.vue";
+
+const props = defineProps({
+  infos: Object
+})
 </script>
 
 <style scoped>

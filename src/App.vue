@@ -5,21 +5,28 @@
     <button
         class="fixed top-5 left-5 text-3xl text-red-600 z-50"
         @click="toggleNav(true)"><font-awesome-icon icon="bars"/></button>
-    <AppNav :navigation="json.navigation" :is-open="navOpen" :close="toggleNav"></AppNav>
+    <div class="flex absolute top-5 right-5 z-50">
+      <button
+          class="mr-5 w-10 hover:border-2 border-white" @click="lang='FR'"><img src="/images/fr.svg"/></button>
+      <button
+          class="w-10 hover:border-2 border-white" @click="lang='EN'"><img src="/images/gb.svg"/></button>
+
+    </div>
+
+    <AppNav :navigation="trad.navigation" :is-open="navOpen" :close="toggleNav"></AppNav>
     <main id="main" class="transform top-0 left-0 w-full ease-in-out transition-all duration-300"
           :class="navOpen ? 'translate-x-96 pr-96' : ''">
-      <Section id="page-infos" class="bg-black text-white" :dataSet="json.infos"> <PageInfos></PageInfos> </Section>
-      <Section id="page-studies" class="bg-white text-black" :dataSet="json.studies"> <ArticleStudies/> </Section>
-      <Section id="page-jobs" class="bg-black text-white" :dataSet="json.jobs"> <ArticleJobs/> </Section>
-      <Section id="page-skills" class="bg-white text-black" :dataSet="json.skills" > <ArticleSkills/> </Section>
-      <Section id="page-projects" class="bg-black text-white" :dataSet="json.projects"> <ArticleProjects/> </Section>
+      <Section id="page-infos" class="bg-black text-white" :dataSet="trad.infos"> <PageInfos :infos="trad.infos"></PageInfos> </Section>
+      <Section id="page-studies" class="bg-white text-black" :dataSet="trad.studies"> <ArticleStudies :studies="trad.studies"/> </Section>
+      <Section id="page-jobs" class="bg-black text-white" :dataSet="trad.jobs"> <ArticleJobs :jobs="trad.jobs"/> </Section>
+      <Section id="page-skills" class="bg-white text-black" :dataSet="trad.skills" > <ArticleSkills :skills="trad.skills"/> </Section>
+      <Section id="page-projects" class="bg-black text-white" :dataSet="trad.projects"> <ArticleProjects :projects="trad.projects"/> </Section>
     </main>
   </div>
-
-
 </template>
 
 <script setup>
+import { ref } from 'vue';
 import json from './data.json'
 import Section from './components/Section.vue';
 import PageInfos from "./components/PageInfos.vue";
@@ -28,7 +35,6 @@ import ArticleJobs from "./components/ArticleJobs.vue";
 import ArticleProjects from "./components/ArticleProjects.vue";
 import ArticleSkills from "./components/ArticleSkills.vue";
 import AppNav from "./components/AppNav.vue";
-
 </script>
 
 <script>
@@ -42,6 +48,15 @@ export default {
   data() {
     return {
       navOpen: false,
+      lang: "FR"
+    }
+  },
+  computed: {
+    trad: function(){
+      console.log(json);
+      console.log(this.lang);
+      console.log(json[this.lang]);
+      return json[this.lang];
     }
   }
 }
