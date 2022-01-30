@@ -1,7 +1,7 @@
 <template>
-  <carousel class="m-10 hidden md:block" :mouse-drag="false">
+  <carousel class="mx-10 hidden md:block" :mouse-drag="false">
     <slide v-for="project in projects.data" :key="project.title">
-        <div class="m-10 flex flex-col space-y-5">
+        <div class="flex flex-col space-y-5">
           <h1 class="text-3xl">{{project.title}}</h1>
           <h2 class="text-2xl"><AppLink :href="project.url">{{project.url}}</AppLink></h2>
           <img v-if="project.imgName" :src="'/images/projects/' + project.imgName + '.png'" class="w-1/2 mx-auto"/>
@@ -10,7 +10,7 @@
           <div class="flex space-x-5 mt-5 justify-center">
             <SkillChip v-for="skill in project.technos">{{skill}}</SkillChip>
           </div>
-          <AppLink class="text-5xl m-5 hover:text-blue-400"><font-awesome-icon :icon="['fab', 'github']"/></AppLink>
+          <AppLink class="text-5xl m-5" v-if="project.github" :href="project.github"><font-awesome-icon :icon="['fab', 'github']"/></AppLink>
         </div>
 
     </slide>
