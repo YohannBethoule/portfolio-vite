@@ -16,11 +16,11 @@
     <AppNav :navigation="trad.navigation" :is-open="navOpen" :close="toggleNav"></AppNav>
     <main id="main" class="transform top-0 left-0 w-full ease-in-out transition-all duration-300"
           :class="navOpen ? 'translate-x-96 pr-96' : ''">
-      <Section id="page-infos" class="bg-black text-white" :dataSet="trad.infos"> <PageInfos :infos="trad.infos"></PageInfos> </Section>
-      <Section id="page-studies" class="bg-white text-black" :dataSet="trad.studies"> <ArticleStudies :studies="trad.studies"/> </Section>
-      <Section id="page-jobs" class="bg-black text-white" :dataSet="trad.jobs"> <ArticleJobs :jobs="trad.jobs"/> </Section>
-      <Section id="page-skills" class="bg-white text-black" :dataSet="trad.skills" > <ArticleSkills :skills="trad.skills"/> </Section>
-      <Section id="page-projects" class="bg-black text-white" :dataSet="trad.projects"> <ArticleProjects :projects="trad.projects"/> </Section>
+      <Section id="page-infos" dark :dataSet="trad.infos"> <PageInfos :infos="trad.infos"></PageInfos> </Section>
+      <Section id="page-jobs" :dataSet="trad.jobs"> <ArticleJobs :jobs="trad.jobs"/> </Section>
+      <Section id="page-skills" dark :dataSet="trad.skills" > <ArticleSkills :skills="trad.skills"/> </Section>
+      <Section id="page-projects" :dataSet="trad.projects"> <ArticleProjects :projects="trad.projects"/> </Section>
+      <Section id="page-studies" dark :dataSet="trad.studies"> <ArticleStudies :studies="trad.studies"/> </Section>
     </main>
   </div>
 </template>
