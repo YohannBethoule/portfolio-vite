@@ -1,6 +1,8 @@
 <template>
   <div class="flex flex-col mx-auto text-center space-y-5">
-    <h1 class="text-5xl md:text-9xl font-bold"> {{infos.name}}</h1>
+
+    <h1 class="text-5xl md:text-9xl font-bold"><img src="/logo.PNG" class="inline h-16 w-16 md:h-28 md:w-28 md:mb-5"/> {{infos.name}}</h1>
+
     <AppH2>{{infos.subtitle}}</AppH2>
     <div class="flex flex-col space-y-2">
       <AppH3>
@@ -15,7 +17,7 @@
         <AppLink :href="infos.linkedin" class="text-5xl m-5"><font-awesome-icon :icon="['fab', 'linkedin']"/></AppLink>
       </AppH3>
     </div>
-<!--    <p class="text-3xl">{{infos.description}}</p>-->
+    <p class="text-xl">{{infos.description}}</p>
   </div>
 
 </template>

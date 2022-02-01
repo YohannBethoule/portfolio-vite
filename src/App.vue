@@ -26,7 +26,6 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
 import json from './data.json'
 import Section from './components/Section.vue';
 import PageInfos from "./components/PageInfos.vue";
