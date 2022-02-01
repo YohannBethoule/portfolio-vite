@@ -1,6 +1,6 @@
 <template>
-  <div class="my-5">
-    <AppH2>> {{title}}<span class="text-red-500 text-2xl">, {{date}}</span></AppH2>
+  <div class="mt-10">
+    <AppH2>> {{title}}<span class="text-red-600 text-2xl">, {{date}}</span></AppH2>
     <h2 class="text-2xl">{{place}}</h2>
     <p>
       <slot></slot>
