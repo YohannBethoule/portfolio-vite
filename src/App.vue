@@ -3,7 +3,7 @@
 <template>
   <div class="flex scroll-smooth">
     <button
-        class="fixed top-5 left-5 text-3xl text-red-600 z-50"
+        class="fixed top-5 left-5 text-3xl text-red-600 z-20"
         @click="toggleNav(true)"><font-awesome-icon icon="bars"/></button>
     <div class="flex absolute top-5 right-5 z-50">
       <button
