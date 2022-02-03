@@ -5,7 +5,9 @@
       <button class="ml-auto mr-3 text-5xl hover:underline hover:font-bold" @click="close()" >&times;</button>
       <ul class="flex flex-col space-y-10 px-3 justify-center my-auto">
         <li v-for="nav in navigation" :key="nav.title" class="text-center">
-          <AppNavLink  @click="goTo(nav.anchor)" :icon="nav.icon">{{ nav.title }}</AppNavLink>
+          <AppNavLink :href="'#'+nav.anchor" :icon="nav.icon" @click="close()">{{ nav.title }}</AppNavLink>
+          <!--          :href="'#'+nav.anchor"-->
+          <!--          <AppNavLink  @click="close()" :icon="nav.icon">{{ nav.title }}</AppNavLink>-->
         </li>
       </ul>
     </nav>
@@ -15,14 +17,16 @@
 
 <script>
 import AppNavLink from "./AppNavLink.vue";
+
 export default {
   name: "AppNav",
   components: {AppNavLink},
   methods: {
-    goTo(anchor) {
-      console.log(document.getElementById(anchor).scrollTop)
-      window.scroll(0, document.getElementById(anchor).offsetTop);
-      this.close();
+    closeDelay(delay, anchor) {
+      this.close()
+      // window.scrollTo(0,document.getElementById('page-projects').offsetTop)
+      // if(anchor=='page-projects') return;
+      window.scrollTo(0, document.getElementById(anchor).offsetTop)
     }
   },
   props: {
@@ -32,7 +36,18 @@ export default {
   },
   data() {
     return {
-
+      offsets: {
+        "page-studies": 0,
+        "page-projects": 0,
+        "page-jobs": 0,
+        "page-infos": 0,
+        "page-skills": 0,
+      }
+    }
+  },
+  mounted() {
+    for (let anchor of Object.keys(this.offsets)) {
+      this.offsets[anchor] = document.getElementById(anchor).offsetTop;
     }
   }
 }

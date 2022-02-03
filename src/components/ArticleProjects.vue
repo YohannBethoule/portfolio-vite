@@ -1,17 +1,21 @@
 <template>
-  <carousel class="mx-10 hidden md:block" :mouse-drag="false">
+  <carousel :mouse-drag="false" class="mx-10 hidden  md:block">
     <slide v-for="project in projects.data" :key="project.title">
-        <div class="flex flex-col space-y-5">
-          <h1 class="text-3xl">{{project.title}}</h1>
-          <h2 class="text-2xl"><AppLink :href="project.url">{{project.url}}</AppLink></h2>
-          <img v-if="project.imgName" :src="'/images/projects/' + project.imgName + '.png'" class="w-1/2 mx-auto"/>
-          <div>{{project.short}}</div>
-          <div>{{project.long}}</div>
-          <div class="flex space-x-5 mt-5 justify-center h-16">
-            <SkillChip v-for="skill in project.technos">{{skill}}</SkillChip>
-          </div>
-          <AppLink class="text-5xl mb-5" v-if="project.github" :href="project.github"><font-awesome-icon :icon="['fab', 'github']"/></AppLink>
+      <div class="flex flex-col mt-5 space-y-3 w-3/4">
+        <h1 class="text-3xl">{{ project.title }}</h1>
+        <h2 class="text-2xl">
+          <AppLink :href="project.url">{{ project.url }}</AppLink>
+        </h2>
+        <img v-if="project.imgName" :src="'/images/projects/' + project.imgName + '.png'" class="h-96 mx-auto"/>
+        <div>{{ project.short }}</div>
+        <div>{{ project.long }}</div>
+        <div class="flex space-x-5 justify-center h-12">
+          <SkillChip v-for="skill in project.technos">{{ skill }}</SkillChip>
         </div>
+        <AppLink v-if="project.github" :href="project.github" class="text-5xl">
+          <font-awesome-icon :icon="['fab', 'github']"/>
+        </AppLink>
+      </div>
 
     </slide>
 
@@ -36,9 +40,10 @@
 <script setup>
 import AppSection from "./AppSection.vue";
 import SkillChip from "./SkillChip.vue";
-import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
+import {Carousel, Navigation, Pagination, Slide} from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
 import AppLink from "./AppLink.vue";
+
 const props = defineProps({
   projects: Object
 })
