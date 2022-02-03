@@ -36,6 +36,7 @@
 </template>
 
 <script setup>
+import json from './data.json';
 import Section from './components/Section.vue';
 import PageInfos from "./components/PageInfos.vue";
 import ArticleStudies from "./components/ArticleStudies.vue";
@@ -60,9 +61,6 @@ export default {
   },
   computed: {
     trad: function(){
-      console.log(json);
-      console.log(this.lang);
-      console.log(json[this.lang]);
       return json[this.lang];
     }
   }
