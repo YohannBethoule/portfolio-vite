@@ -8,11 +8,6 @@
         "anchor": "page-infos"
       },
       {
-        "title": "Expériences professionnelles",
-        "icon": "briefcase",
-        "anchor": "page-jobs"
-      },
-      {
         "title": "Compétences",
         "icon": "align-left",
         "anchor": "page-skills"
@@ -21,6 +16,11 @@
         "title": "Projets",
         "icon": "cogs",
         "anchor": "page-projects"
+      },
+      {
+        "title": "Expériences professionnelles",
+        "icon": "briefcase",
+        "anchor": "page-jobs"
       },
       {
         "title": "Formations",
@@ -159,11 +159,6 @@
         "anchor": "page-infos"
       },
       {
-        "title": "Experience",
-        "icon": "briefcase",
-        "anchor": "page-jobs"
-      },
-      {
         "title": "Skills",
         "icon": "align-left",
         "anchor": "page-skills"
@@ -172,6 +167,11 @@
         "title": "Projects",
         "icon": "cogs",
         "anchor": "page-projects"
+      },
+      {
+        "title": "Experience",
+        "icon": "briefcase",
+        "anchor": "page-jobs"
       },
       {
         "title": "Education",
@@ -189,7 +189,7 @@
       "postalCode": "44000",
       "phone": "(+33)6 12  31 25 54",
       "country": "France",
-      "description": "Currently living in Nantes,I work as a full-stack web developer for a french company leader in IT solution for central reservations services in France."
+      "description": "Currently living in Nantes, I work as a full-stack web developer for a french company leader in IT solution for central reservations services in France."
     },
     "studies": {
       "title": "Education",
@@ -238,7 +238,7 @@
           "date": "from August 2018 to August 2019",
           "place": "Limoges - France",
           "company": "Tripnity",
-          "description": "Professionalisation contract during my professional degree. I worked for the company 36 weeks through the year, developing an internal customer support platform for Iconosquare.",
+          "description": "Professionalisation contract during my professional degree. I developed an internal customer relationship platform for Iconosquare.",
           "technos": "PHP7 with ZendFramework, JavaScript and Jquery, HTML5/CSS3 with Sass, MySQL and Cassandra."
         }
       ]
@@ -278,17 +278,29 @@
           "title": "Management solution for central reservations services",
           "short": "ITEA",
           "imgName": "itea",
-          "long": "",
+          "long": "I participated to the evolution of a web ERP allowing central reservation services to manage their ressources. This project being more than 20 years old, I have learned to combine technical debt relief and implementation of complex new features.",
           "url": "https://itea.fr/",
-          "technos": ["Vue", "AngularJS", "Bootstrap", "PHP", "SQL"]
+          "technos": [
+            "Vue",
+            "AngularJS",
+            "Bootstrap",
+            "PHP",
+            "SQL"
+          ]
         },
         {
           "title": "Customer relationship platform",
           "short": "Iconosquare",
           "imgName": "iconosquare",
           "url": "https://support.iconosquare.com/",
-          "long": "",
-          "technos": ["jQuery", "PHP", "ZendFramework", "SQL", "Cassandra"]
+          "long": "I developed a customer relationship management platform dedicated to the support team of Iconosquare based in Berlin, working with a senior developer.",
+          "technos": [
+            "jQuery",
+            "PHP",
+            "ZendFramework",
+            "SQL",
+            "Cassandra"
+          ]
         }
       ]
     }

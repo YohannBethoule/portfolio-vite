@@ -1,5 +1,8 @@
 <template>
-  <button class="hover:font-bold hover:underline whitespace-normal"><font-awesome-icon class="mr-2" :icon="icon"/><slot></slot></button>
+  <a class="hover:font-bold hover:underline whitespace-normal">
+    <font-awesome-icon :icon="icon" class="mr-2"/>
+    <slot></slot>
+  </a>
 </template>
 
 <script>
