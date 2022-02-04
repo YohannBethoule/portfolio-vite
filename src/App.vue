@@ -5,7 +5,7 @@
     <button
         class="fixed top-5 left-5 text-3xl text-[#D50000] z-20"
         @click="toggleNav(true)"><font-awesome-icon icon="bars"/></button>
-    <div class="flex absolute top-5 right-5 z-50">
+    <div class="flex absolute top-5 right-5 z-20">
       <button
           class="mr-5 w-10 hover:border-2 border-white" @click="lang='FR'"><img src="/images/fr.svg"/></button>
       <button
