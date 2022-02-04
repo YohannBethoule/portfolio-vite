@@ -28,6 +28,7 @@
     <AppSection :title="project.title"
                 :date="project.short">
       <h2 class="text-lg"><AppLink :href="project.url">{{project.url}}</AppLink></h2>
+      <img v-if="project.imgName" :src="'/images/projects/' + project.imgName + '.png'" class="w-full my-2"/>
       <div>{{project.long}}</div>
       <div class="flex flex-wrap mt-5">
         <SkillChip v-for="skill in project.technos" class="mr-5 mb-5">{{skill}}</SkillChip>
