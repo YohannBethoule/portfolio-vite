@@ -1,16 +1,16 @@
 <template>
     <section v-for="category  in skills.data" :key="skills.title" class="pt-10">
-      <AppH2 class="text-3xl">> {{category.label}}</AppH2>
-      <span class="flex flex-wrap mt-5 md:h-16">
-        <SkillChip v-for="skill in category.skillset" dark class="mr-5 mb-5 text-lg">{{skill}}</SkillChip>
+      <AppH2 class="text-3xl">> {{ category.label }}</AppH2>
+      <span class="flex flex-wrap mt-5">
+        <AppSkillCard v-for="skill in category.skillset" :image="skill.image" :name="skill.name" class="mr-2 md:mr-5"
+                      dark></AppSkillCard>
       </span>
     </section>
 </template>
 
 <script setup>
-import AppSection from "./AppSection.vue";
 import AppH2 from "./AppH2.vue";
-import SkillChip from "./SkillChip.vue";
+import AppSkillCard from "./AppSkillCard.vue";
 const props = defineProps({
   skills: Object
 })

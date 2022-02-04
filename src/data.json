@@ -106,15 +106,78 @@
       "data": [
         {
           "label": "Back-end",
-          "skillset": ["PHP", "Python", ".NET", "Symfony", "Django", "API REST"]
+          "skillset": [
+            {
+              "name": "PHP",
+              "image": "php.svg"
+            },
+            {
+              "name": "Python",
+              "image": "python.svg"
+            },
+            {
+              "name": ".NET",
+              "image": "net.svg"
+            },
+            {
+              "name": "Symfony",
+              "image": "symfony.svg"
+            },
+            {
+              "name": "Django",
+              "image": "django.svg"
+            },
+            {
+              "name": "API REST",
+              "image": "rest-api.svg"
+            }
+          ]
         },
         {
           "label": "Front-end",
-          "skillset": [ "Vue","React", "React-native (mobile)", "Bootstrap", "TailwindCSS"]
+          "skillset": [
+            {
+              "name": "Vue",
+              "image": "vue.svg"
+            },
+            {
+              "name": "React",
+              "image": "react.svg"
+            },
+            {
+              "name": "React-native (mobile)",
+              "image": "react.svg"
+            },
+            {
+              "name": "Bootstrap",
+              "image": "bootstrap.svg"
+            },
+            {
+              "name": "TailwindCSS",
+              "image": "tailwind.svg"
+            }
+          ]
         },
         {
           "label": "Outils",
-          "skillset": ["Git", "Docker", "Wix", "Méthode agile"]
+          "skillset": [
+            {
+              "name": "Git",
+              "image": "git.svg"
+            },
+            {
+              "name": "Docker",
+              "image": "docker.svg"
+            },
+            {
+              "name": "Wix",
+              "image": "wix.svg"
+            },
+            {
+              "name": "Méthode agile",
+              "image": ""
+            }
+          ]
         }
       ]
     },
@@ -249,15 +312,78 @@
       "data": [
         {
           "label": "Back-end",
-          "skillset": ["PHP", "Python", ".NET", "Symfony", "Django", "API REST"]
+          "skillset": [
+            {
+              "name": "PHP",
+              "image": "php.svg"
+            },
+            {
+              "name": "Python",
+              "image": "python.svg"
+            },
+            {
+              "name": ".NET",
+              "image": "net.svg"
+            },
+            {
+              "name": "Symfony",
+              "image": "symfony.svg"
+            },
+            {
+              "name": "Django",
+              "image": "django.svg"
+            },
+            {
+              "name": "REST API",
+              "image": "rest-api.svg"
+            }
+          ]
         },
         {
           "label": "Front-end",
-          "skillset": [ "Vue","React", "React-native (mobile)", "Bootstrap", "TailwindCSS"]
+          "skillset": [
+            {
+              "name": "Vue",
+              "image": "vue.svg"
+            },
+            {
+              "name": "React",
+              "image": "react.svg"
+            },
+            {
+              "name": "React-native (mobile)",
+              "image": "react.svg"
+            },
+            {
+              "name": "Bootstrap",
+              "image": "bootstrap.svg"
+            },
+            {
+              "name": "TailwindCSS",
+              "image": "tailwind.svg"
+            }
+          ]
         },
         {
           "label": "Tools",
-          "skillset": ["Git", "Docker", "Wix", "Agile method"]
+          "skillset": [
+            {
+              "name": "Git",
+              "image": "git.svg"
+            },
+            {
+              "name": "Docker",
+              "image": "docker.svg"
+            },
+            {
+              "name": "Wix",
+              "image": "wix.svg"
+            },
+            {
+              "name": "Agile method",
+              "image": ""
+            }
+          ]
         }
       ]
     },
