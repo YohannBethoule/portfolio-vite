@@ -149,6 +149,10 @@
               "image": "react-native.svg"
             },
             {
+              "name": "Angular",
+              "image": "angular.svg"
+            },
+            {
               "name": "Bootstrap",
               "image": "bootstrap.svg"
             },
@@ -353,6 +357,10 @@
             {
               "name": "React-native (mobile)",
               "image": "react-native.svg"
+            },
+            {
+              "name": "Angular",
+              "image": "angular.svg"
             },
             {
               "name": "Bootstrap",
