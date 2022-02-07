@@ -8,14 +8,27 @@
     <div class="flex flex-col space-y-2">
       <AppH3>
         <AppLink :href="'mailto:'+infos.mail">
-          <font-awesome-icon icon="envelope" class="mr-2"/>{{infos.mail}}
+          <font-awesome-icon icon="envelope" class="mr-2"/>
+          {{ infos.mail }}
         </AppLink>
       </AppH3>
-      <AppH3><font-awesome-icon icon="phone" class="mr-2"/>{{infos.phone}}</AppH3>
-      <AppH3><font-awesome-icon icon="home" class="mr-2"/>{{infos.postalCode}} {{infos.city}}, {{infos.country.toUpperCase()}}</AppH3>
       <AppH3>
-        <AppLink :href="infos.github" class="text-5xl m-5"><font-awesome-icon :icon="['fab', 'github']"/></AppLink>
-        <AppLink :href="infos.linkedin" class="text-5xl m-5"><font-awesome-icon :icon="['fab', 'linkedin']"/></AppLink>
+        <AppLink :href="'tel:'+infos.phone">
+          <font-awesome-icon class="mr-2" icon="phone"/>
+          {{ infos.phone }}
+        </AppLink>
+      </AppH3>
+      <AppH3>
+        <font-awesome-icon icon="home" class="mr-2"/>
+        {{ infos.postalCode }} {{ infos.city }}, {{ infos.country.toUpperCase() }}
+      </AppH3>
+      <AppH3>
+        <AppLink :href="infos.github" class="text-5xl m-5">
+          <font-awesome-icon :icon="['fab', 'github']"/>
+        </AppLink>
+        <AppLink :href="infos.linkedin" class="text-5xl m-5">
+          <font-awesome-icon :icon="['fab', 'linkedin']"/>
+        </AppLink>
       </AppH3>
     </div>
     <p class="text-xl">{{infos.description}}</p>

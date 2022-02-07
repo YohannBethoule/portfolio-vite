@@ -31,14 +31,14 @@
     "infos": {
       "name": "Yohann Bethoule",
       "firstname": "Yohann",
-      "lastname" : "Bethoule",
+      "lastname": "Bethoule",
       "subtitle": "Développeur web",
       "mail": "yohann.bethoule@gmail.com",
       "github": "https://github.com/YohannBethoule",
       "linkedin": "https://www.linkedin.com/in/yohann-bethoule-89a9b4171",
       "city": "Nantes",
       "postalCode": "44000",
-      "phone": "(+33)6 12  31 25 54",
+      "phone": "06 12  31 25 54",
       "country": "France",
       "description": "Actuellement basé à Nantes, j'occupe le poste de développeur web full-stack pour un leader francais de la création de solution IT dans le domaine touristique."
     },
@@ -250,7 +250,7 @@
       "linkedin": "https://www.linkedin.com/in/yohann-bethoule-89a9b4171",
       "city": "Nantes",
       "postalCode": "44000",
-      "phone": "(+33)6 12  31 25 54",
+      "phone": "+336 12  31 25 54",
       "country": "France",
       "description": "Currently living in Nantes, I work as a full-stack web developer for a french company leader in IT solution for central reservations services in France."
     },
