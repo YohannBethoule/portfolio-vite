@@ -1,5 +1,6 @@
 {
   "FR": {
+    "backToTop": "Retour en haut",
     "siteName": "Yohann Bethoule",
     "navigation": [
       {
@@ -218,6 +219,7 @@
     }
   },
   "EN": {
+    "backToTop": "Back to top",
     "siteName": "Yohann Bethoule",
     "navigation": [
       {
