@@ -1,7 +1,7 @@
 <template>
   <button v-show="visible" @click="backToTop()">
-    <font-awesome-icon icon="arrow-up"></font-awesome-icon>
-    Back to top
+    <font-awesome-icon class="mr-1" icon="arrow-up"></font-awesome-icon>
+    <slot></slot>
   </button>
 </template>
 
