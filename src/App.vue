@@ -4,7 +4,9 @@
   <div class="flex scroll-smooth">
     <button
         class="fixed top-5 left-5 text-3xl text-[#D50000] z-20"
-        @click="toggleNav(true)"><font-awesome-icon icon="bars"/></button>
+        @click="toggleNav(true)">
+      <font-awesome-icon icon="bars"/>
+    </button>
     <div class="flex absolute top-5 right-5 z-20">
       <button
           class="mr-5 w-10 hover:border-2 border-white" @click="lang='FR'"><img src="/images/fr.svg"/></button>
@@ -12,6 +14,9 @@
           class="w-10 hover:border-2 border-white" @click="lang='EN'"><img src="/images/gb.svg"/></button>
 
     </div>
+    <ScrollTopButton class="px-4 py-2 rounded-full fixed bottom-10 right-5 align-center font-semibold z-50 text-neutral-100
+      hover:border-2 hover:shadow-[0_0_10px_grey] border border-gray-400 mix-blend-difference
+      transition duration-900 ease"></ScrollTopButton>
 
     <AppNav :navigation="trad.navigation" :is-open="navOpen" :close="toggleNav"></AppNav>
     <main id="main" class="transform top-0 left-0 w-full ease-in-out transition-all duration-300"
@@ -43,7 +48,9 @@ import ArticleStudies from "./components/ArticleStudies.vue";
 import ArticleJobs from "./components/ArticleJobs.vue";
 import ArticleProjects from "./components/ArticleProjects.vue";
 import ArticleSkills from "./components/ArticleSkills.vue";
-import AppNav from "./components/AppNav.vue";</script>
+import AppNav from "./components/AppNav.vue";
+import ScrollTopButton from "./components/ScrollTopButton.vue";
+</script>
 
 <script>
 export default {
@@ -51,7 +58,8 @@ export default {
   methods: {
     toggleNav(isOpen) {
       this.navOpen = isOpen;
-    }
+    },
+
   },
   data() {
     return {

@@ -9,7 +9,8 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faCogs } from "@fortawesome/free-solid-svg-icons";
 import { faAlignLeft } from "@fortawesome/free-solid-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import {faBars} from "@fortawesome/free-solid-svg-icons";
+import {faArrowUp} from "@fortawesome/free-solid-svg-icons";
 
 //fab
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -25,5 +26,6 @@ library.add(faGraduationCap);
 library.add(faCogs);
 library.add(faAlignLeft);
 library.add(faBars);
+library.add(faArrowUp);
 
 export default FontAwesomeIcon;
