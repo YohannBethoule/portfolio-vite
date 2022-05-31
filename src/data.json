@@ -77,7 +77,15 @@
       "data": [
         {
           "title": "Développeur web full-stack",
-          "date": "Depuis juin 2021",
+          "date": "depuis juin 2022",
+          "place": "Nantes",
+          "company": "Figaro Classifieds",
+          "description": "Poste de développeur web full-stack pour des sites de vente et location de biens immobiliers.",
+          "technos": "Go, ReactJS"
+        },
+        {
+          "title": "Développeur web full-stack",
+          "date": "de juin 2021 à juin 2022",
           "place": "Nantes",
           "company": "ITEA",
           "description": "Poste de développeur web full-stack orienté back-end dans une entreprise éditant une solution de gestion à destination des centrales de réservation touristique.",
@@ -85,7 +93,7 @@
         },
         {
           "title": "Développeur web full-stack",
-          "date": "De novembre 2020 à juin 2021",
+          "date": "de novembre 2020 à juin 2021",
           "place": "Nantes",
           "company": "Intellia",
           "description": "Poste de développeur web full-stack orienté back-end dans une agence de développement digitale. Le coeur de l'activité était les applications métiers, avec un focus important sur le développement intranet.",
@@ -93,7 +101,7 @@
         },
         {
           "title": "Développeur web back-end en alternance",
-          "date": "D'aout 2018 à août 2019",
+          "date": "d'aout 2018 à août 2019",
           "place": "Limoges",
           "company": "Tripnity",
           "description": "Poste de développeur en contrat de professionnalisation dans la cadre de ma licence professionnelle. J'étais présent dans l'entreprise 36 semaines durant cette période. Développement d'une plateforme interne de support client pour le produit Iconosquare.",
@@ -286,6 +294,14 @@
       "title": "Experience",
       "icon": "briefcase",
       "data": [
+        {
+          "title": "Full-stack web developer",
+          "date": "since June 2022",
+          "place": "Nantes",
+          "company": "Figaro Classifieds",
+          "description": "Job as a full-stack web developer, working on real estate sales and rental websites.",
+          "technos": "Go, ReactJS"
+        },
         {
           "title": "Full-stack web developer",
           "date": "since June 2021",
