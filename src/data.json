@@ -121,24 +121,20 @@
               "image": "php.svg"
             },
             {
-              "name": "Python",
-              "image": "python.svg"
+              "name": "Go",
+              "image": "golang.svg"
             },
             {
-              "name": ".NET",
-              "image": "net.svg"
+              "name": "NodeJS",
+              "image": "nodejs.svg"
             },
             {
-              "name": "Symfony",
-              "image": "symfony.svg"
+              "name": "SQL",
+              "image": "mysql.svg"
             },
             {
-              "name": "Django",
-              "image": "django.svg"
-            },
-            {
-              "name": "API REST",
-              "image": "rest-api.svg"
+              "name": "Elasticsearch",
+              "image": "elasticsearch.svg"
             }
           ]
         },
@@ -152,10 +148,6 @@
             {
               "name": "React",
               "image": "react.svg"
-            },
-            {
-              "name": "React-native (mobile)",
-              "image": "react-native.svg"
             },
             {
               "name": "Angular",
@@ -297,7 +289,7 @@
         {
           "title": "Full-stack web developer",
           "date": "since June 2022",
-          "place": "Nantes",
+          "place": "Nantes - France",
           "company": "Figaro Classifieds",
           "description": "Job as a full-stack web developer, working on real estate sales and rental websites.",
           "technos": "Go, ReactJS"
@@ -340,24 +332,20 @@
               "image": "php.svg"
             },
             {
-              "name": "Python",
-              "image": "python.svg"
+              "name": "Go",
+              "image": "golang.svg"
             },
             {
-              "name": ".NET",
-              "image": "net.svg"
+              "name": "NodeJS",
+              "image": "nodejs.svg"
             },
             {
-              "name": "Symfony",
-              "image": "symfony.svg"
+              "name": "SQL",
+              "image": "mysql.svg"
             },
             {
-              "name": "Django",
-              "image": "django.svg"
-            },
-            {
-              "name": "REST API",
-              "image": "rest-api.svg"
+              "name": "Elasticsearch",
+              "image": "elasticsearch.svg"
             }
           ]
         },
@@ -371,10 +359,6 @@
             {
               "name": "React",
               "image": "react.svg"
-            },
-            {
-              "name": "React-native (mobile)",
-              "image": "react-native.svg"
             },
             {
               "name": "Angular",
