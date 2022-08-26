@@ -197,7 +197,25 @@
           "url": "https://www.aoe4analytics.com",
           "github": "https://github.com/YohannBethoule/aoe4_stats",
           "imgName": "aoe4analytics",
-          "technos": ["VueJS", "Vuetify", "Vuex"]
+          "technos": [
+            "VueJS",
+            "Vuetify",
+            "Vuex"
+          ]
+        },
+        {
+          "title": "Figaro Immoneuf",
+          "short": "Figaro Classifieds",
+          "imgName": "immoneuf",
+          "url": "https://www.explorimmoneuf.com/",
+          "long": "J'ai travaillé à la maintenance et l'évolution d'un site de vente de biens immobiliers neufs en France. Développement d'un front-end en React avec un focus important sur le SEO, et d'un back-end en microservices Go suivant une architecture hexagonale et les principes du domain-driven development. ",
+          "technos": [
+            "Go",
+            "React",
+            "Elasticsearch",
+            "Jenkins",
+            "Kubernetes"
+          ]
         },
         {
           "title": "Plateforme de gestion pour les centrales de réservation touristique",
@@ -205,7 +223,13 @@
           "imgName": "itea",
           "long": "J'ai participé à l'évolution d'une application web permettant aux centrales de réservation touristique comme les labels Gîtes de France de gérer leurs ressources.\nCe projet existant depuis plus de 20 ans et étant en constante évolution depuis sa création, j'ai appris à conjuguer remboursement de la dette technique et développement de fonctionnalités métiers complexes.",
           "url": "https://itea.fr/",
-          "technos": ["Vue", "AngularJS", "Bootstrap", "PHP", "SQL"]
+          "technos": [
+            "Vue",
+            "AngularJS",
+            "Bootstrap",
+            "PHP",
+            "SQL"
+          ]
         },
         {
           "title": "Plateforme de support client",
@@ -408,7 +432,25 @@
           "url": "https://www.aoe4analytics.com",
           "github": "https://github.com/YohannBethoule/aoe4_stats",
           "imgName": "aoe4analytics",
-          "technos": ["VueJS", "Vuetify", "Vuex"]
+          "technos": [
+            "VueJS",
+            "Vuetify",
+            "Vuex"
+          ]
+        },
+        {
+          "title": "Figaro Immoneuf",
+          "short": "Figaro Classifieds",
+          "imgName": "immoneuf",
+          "url": "https://www.explorimmoneuf.com/",
+          "long": "I worked on maintenance and evolution of a website selling new real estates in France. I developed a front-end in React with a major focus on SEO, and a back-end with Go microservices following a hexagonal architecture and domain-driven development principles.",
+          "technos": [
+            "Go",
+            "React",
+            "Elasticsearch",
+            "Jenkins",
+            "Kubernetes"
+          ]
         },
         {
           "title": "Management solution for central reservations services",
