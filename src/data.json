@@ -191,19 +191,6 @@
       "icon": "cogs",
       "data": [
         {
-          "title": "AoE 4 Analytics",
-          "short": "Projet personnel depuis décembre 2021. ",
-          "long": "Application web permettant de retrouver des statistiques sur les performances des joueurs du jeu en ligne Age of Empire 4. ",
-          "url": "https://www.aoe4analytics.com",
-          "github": "https://github.com/YohannBethoule/aoe4_stats",
-          "imgName": "aoe4analytics",
-          "technos": [
-            "VueJS",
-            "Vuetify",
-            "Vuex"
-          ]
-        },
-        {
           "title": "Figaro Immoneuf",
           "short": "Figaro Classifieds",
           "imgName": "immoneuf",
@@ -425,19 +412,6 @@
       "title": "Projects",
       "icon": "cogs",
       "data": [
-        {
-          "title": "AoE 4 Analytics",
-          "short": "Personnal project since December 2021.",
-          "long": "Web application gathering analytics about players' in-game performance in Age of Empire 4.",
-          "url": "https://www.aoe4analytics.com",
-          "github": "https://github.com/YohannBethoule/aoe4_stats",
-          "imgName": "aoe4analytics",
-          "technos": [
-            "VueJS",
-            "Vuetify",
-            "Vuex"
-          ]
-        },
         {
           "title": "Figaro Immoneuf",
           "short": "Figaro Classifieds",
