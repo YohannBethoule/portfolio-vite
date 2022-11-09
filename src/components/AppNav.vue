@@ -7,8 +7,6 @@
       <ul class="flex flex-col space-y-10 px-3 justify-center my-auto">
         <li v-for="nav in navigation" :key="nav.title" class="text-center">
           <AppNavLink :href="'#'+nav.anchor" :icon="nav.icon" @click="close()">{{ nav.title }}</AppNavLink>
-          <!--          :href="'#'+nav.anchor"-->
-          <!--          <AppNavLink  @click="close()" :icon="nav.icon">{{ nav.title }}</AppNavLink>-->
         </li>
       </ul>
     </nav>
@@ -24,10 +22,8 @@ export default {
   components: {AppNavLink},
   methods: {
     closeDelay(delay, anchor) {
-      this.close()
-      // window.scrollTo(0,document.getElementById('page-projects').offsetTop)
-      // if(anchor=='page-projects') return;
-      window.scrollTo(0, document.getElementById(anchor).offsetTop)
+      this.close();
+      window.scrollTo(0, document.getElementById(anchor).offsetTop);
     }
   },
   props: {

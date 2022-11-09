@@ -81,7 +81,7 @@
           "place": "Nantes",
           "company": "Figaro Classifieds",
           "description": "Poste de développeur web full-stack pour des sites de vente et location de biens immobiliers.",
-          "technos": "Go, ReactJS"
+          "technos": "Go, ReactJS, Elasticsearch, Jenkins, Kubernetes"
         },
         {
           "title": "Développeur web full-stack",
@@ -173,6 +173,10 @@
             {
               "name": "Docker",
               "image": "docker.svg"
+            },
+            {
+              "name": "Kubernetes",
+              "image": "kubernets.svg"
             },
             {
               "name": "Wix",
@@ -303,7 +307,7 @@
           "place": "Nantes - France",
           "company": "Figaro Classifieds",
           "description": "Job as a full-stack web developer, working on real estate sales and rental websites.",
-          "technos": "Go, ReactJS"
+          "technos": "Go, ReactJS, Elasticsearch, Jenkins, Kubernetes"
         },
         {
           "title": "Full-stack web developer",
@@ -395,6 +399,10 @@
             {
               "name": "Docker",
               "image": "docker.svg"
+            },
+            {
+              "name": "Kubernetes",
+              "image": "kubernets.svg"
             },
             {
               "name": "Wix",
