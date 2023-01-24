@@ -195,6 +195,20 @@
       "icon": "cogs",
       "data": [
         {
+          "title": "Middle-Earth Map",
+          "short": "Projet personnel",
+          "imgName": "middleearthmap",
+          "url": "https://www.middleearthmap.app/",
+          "github": "https://github.com/YohannBethoule/MiddleEarthMap",
+          "long": "J'ai développé ce site en utilisant la bibliothèque javascript Leaflet pour créer une carte interactive de la Terre du Milieu au 3ème âge.",
+          "technos": [
+            "HTML5",
+            "Sass",
+            "Javascript",
+            "Leaflet"
+          ]
+        },
+        {
           "title": "Figaro Immoneuf",
           "short": "Figaro Classifieds",
           "imgName": "immoneuf",
@@ -420,6 +434,20 @@
       "title": "Projects",
       "icon": "cogs",
       "data": [
+        {
+          "title": "Middle-Earth Map",
+          "short": "Personal project",
+          "imgName": "middleearthmap",
+          "url": "https://www.middleearthmap.app/",
+          "github": "https://github.com/YohannBethoule/MiddleEarthMap",
+          "long": "I developed this web app using Leaflet library to create an interactive map of Middle Earth during Third Age.",
+          "technos": [
+            "HTML5",
+            "Sass",
+            "Javascript",
+            "Leaflet"
+          ]
+        },
         {
           "title": "Figaro Immoneuf",
           "short": "Figaro Classifieds",
