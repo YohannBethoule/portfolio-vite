@@ -6,13 +6,14 @@
         <h2 class="text-2xl">
           <AppLink :href="project.url">{{ project.url }}</AppLink>
         </h2>
-        <img v-if="project.imgName" :src="'/images/projects/' + project.imgName + '.webp'" class="h-96 mx-auto"/>
+        <img v-if="project.imgName" :alt="project.title" :src="'/images/projects/' + project.imgName + '.webp'"
+             class="h-96 mx-auto"/>
         <div>{{ project.short }}</div>
         <div>{{ project.long }}</div>
         <div class="flex space-x-5 justify-center h-12">
           <SkillChip v-for="skill in project.technos">{{ skill }}</SkillChip>
         </div>
-        <AppLink v-if="project.github" :href="project.github" class="text-5xl">
+        <AppLink v-if="project.github" :href="project.github" class="text-5xl" title="Github Repository">
           <font-awesome-icon :icon="['fab', 'github']"/>
         </AppLink>
       </div>
@@ -27,11 +28,14 @@
   <section  v-for="project in projects.data" :key="project.title" class="md:hidden">
     <AppSection :title="project.title"
                 :date="project.short">
-      <h2 class="text-lg"><AppLink :href="project.url">{{project.url}}</AppLink></h2>
-      <img v-if="project.imgName" :src="'/images/projects/' + project.imgName + '.webp'" class="w-full my-2"/>
-      <div>{{project.long}}</div>
+      <h2 class="text-lg">
+        <AppLink :href="project.url">{{ project.url }}</AppLink>
+      </h2>
+      <img v-if="project.imgName" :alt="project.title" :src="'/images/projects/' + project.imgName + '.webp'"
+           class="w-full my-2"/>
+      <div>{{ project.long }}</div>
       <div class="flex flex-wrap mt-5">
-        <SkillChip v-for="skill in project.technos" class="mr-5 mb-5">{{skill}}</SkillChip>
+        <SkillChip v-for="skill in project.technos" class="mr-5 mb-5">{{ skill }}</SkillChip>
       </div>
     </AppSection>
   </section>

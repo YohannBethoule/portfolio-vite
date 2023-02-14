@@ -3,15 +3,20 @@
 <template>
   <div class="flex scroll-smooth">
     <button
+        alt="open menu"
         class="fixed top-5 left-5 text-3xl text-[#D50000] z-20"
         @click="toggleNav(true)">
       <font-awesome-icon icon="bars"/>
     </button>
     <div class="flex absolute top-5 right-5 z-20">
       <button
-          class="mr-5 w-10 hover:border-2 border-white" @click="lang='FR'"><img src="/images/fr.svg"/></button>
+          alt="french language"
+          class="mr-5 w-10 hover:border-2 border-white" @click="lang='FR'"><img alt="french flag" src="/images/fr.svg"/>
+      </button>
       <button
-          class="w-10 hover:border-2 border-white" @click="lang='EN'"><img src="/images/gb.svg"/></button>
+          alt="english language"
+          class="w-10 hover:border-2 border-white" @click="lang='EN'"><img alt="english flag" src="/images/gb.svg"/>
+      </button>
     </div>
 
     <ScrollTopButton class="px-4 py-2 rounded-full fixed bottom-10 right-5 align-center font-semibold z-50 text-neutral-100
@@ -42,7 +47,6 @@
 </template>
 
 <script setup>
-import json from './data.json';
 import Section from './components/Section.vue';
 import PageInfos from "./components/PageInfos.vue";
 import ArticleStudies from "./components/ArticleStudies.vue";
@@ -50,8 +54,7 @@ import ArticleJobs from "./components/ArticleJobs.vue";
 import ArticleProjects from "./components/ArticleProjects.vue";
 import ArticleSkills from "./components/ArticleSkills.vue";
 import AppNav from "./components/AppNav.vue";
-import ScrollTopButton from "./components/ScrollTopButton.vue";
-</script>
+import ScrollTopButton from "./components/ScrollTopButton.vue";</script>
 
 <script>
 export default {
