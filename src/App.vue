@@ -47,6 +47,7 @@
 </template>
 
 <script setup>
+import json from './data.json';
 import Section from './components/Section.vue';
 import PageInfos from "./components/PageInfos.vue";
 import ArticleStudies from "./components/ArticleStudies.vue";
