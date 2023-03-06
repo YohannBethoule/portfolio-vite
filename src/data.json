@@ -36,7 +36,7 @@
       "subtitle": "Développeur web",
       "mail": "yohann.bethoule@gmail.com",
       "github": "https://github.com/YohannBethoule",
-      "linkedin": "https://www.linkedin.com/in/yohann-bethoule-89a9b4171",
+      "linkedin": "https://www.linkedin.com/in/yohann-bethoule",
       "city": "Nantes",
       "postalCode": "44000",
       "phone": "06 12  31 25 54",
@@ -282,7 +282,7 @@
       "subtitle": "French web developer",
       "mail": "yohann.bethoule@gmail.com",
       "github": "https://github.com/YohannBethoule",
-      "linkedin": "https://www.linkedin.com/in/yohann-bethoule-89a9b4171",
+      "linkedin": "https://www.linkedin.com/in/yohann-bethoule",
       "city": "Nantes",
       "postalCode": "44000",
       "phone": "+336 12  31 25 54",
@@ -411,8 +411,7 @@
               "image": "git.svg"
             },
             {
-              "name": "Docker",
-              "image": "docker.svg"
+              "name": "Docker"
             },
             {
               "name": "Kubernetes",
