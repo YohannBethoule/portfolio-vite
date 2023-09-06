@@ -2,7 +2,7 @@
     <section v-for="job in jobs.data" :key="jobs.title">
       <AppSection :title="job.title"
                   :date="job.date"
-                  :place="job.company + ', ' + job.place">
+                  :place="job.place ? (job.company + ', ' + job.place) : job.company">
         <div>{{job.description}}</div>
         <div>{{job.technos}}</div>
       </AppSection>
@@ -11,6 +11,7 @@
 
 <script setup>
 import AppSection from "./AppSection.vue";
+
 const props = defineProps({
   jobs: Object
 })

@@ -80,15 +80,22 @@
           "date": "depuis juin 2022",
           "place": "Nantes",
           "company": "Figaro Classifieds",
-          "description": "Poste de développeur web full-stack pour des sites de vente et location de biens immobiliers.",
+          "description": "En tant que développeur web full-stack chez Figaro Classifieds, je travaille sur des plateformes dédiées à la vente et à la location de biens immobiliers. Je suis responsable de la conception, du développement et de l'optimisation des applications, en garantissant une expérience utilisateur fluide et efficace.",
           "technos": "Go, ReactJS, Elasticsearch, Jenkins, Kubernetes"
+        },
+        {
+          "title": "Mentor développeur d'application - JavaScript React",
+          "date": "depuis juin 2023",
+          "company": "OpenClassrooms",
+          "description": "En tant que mentor développeur d'application chez OpenClassrooms, j'accompagne activement des étudiants tout au long de leur formation diplômante en JavaScript React. Je les guide à travers leur apprentissage autonome, réponds à leurs interrogations et partage mes connaissances sur les meilleures pratiques du développement web.",
+          "technos": "HTML, CSS, Javascript, ReactJS"
         },
         {
           "title": "Développeur web full-stack",
           "date": "de juin 2021 à juin 2022",
           "place": "Nantes",
           "company": "ITEA",
-          "description": "Poste de développeur web full-stack orienté back-end dans une entreprise éditant une solution de gestion à destination des centrales de réservation touristique.",
+          "description": "Chez ITEA, j'ai occupé un poste de développeur web full-stack, avec une orientation plus marquée vers le back-end. J'ai contribué au développement et à l'amélioration d'une solution de gestion destinée aux centrales de réservation touristique, en veillant à répondre aux besoins spécifiques du secteur.",
           "technos": "PHP5, AngularJS, VueJs, bases de données SQL et Informix"
         },
         {
@@ -104,7 +111,7 @@
           "date": "d'aout 2018 à août 2019",
           "place": "Limoges",
           "company": "Tripnity",
-          "description": "Poste de développeur en contrat de professionnalisation dans la cadre de ma licence professionnelle. J'étais présent dans l'entreprise 36 semaines durant cette période. Développement d'une plateforme interne de support client pour le produit Iconosquare.",
+          "description": "Pendant mon alternance chez Tripnity, dans le cadre de ma licence professionnelle, j'ai développé une plateforme interne de support client pour le produit Iconosquare. Mon rôle comprenait la conception, le développement et la mise en œuvre de nouvelles fonctionnalités pour améliorer l'efficacité du support client.",
           "technos": "PHP7 avec ZendFramework, JavaScript et Jquery, HTML5/CSS3 avec Sass, bases de données MySQL et Cassandra."
         }
       ]
@@ -320,15 +327,22 @@
           "date": "since June 2022",
           "place": "Nantes - France",
           "company": "Figaro Classifieds",
-          "description": "Job as a full-stack web developer, working on real estate sales and rental websites.",
+          "description": "As a full-stack web developer at Figaro Classifieds, I worked on platforms dedicated to the sale and rental of real estate properties. I was responsible for designing, developing, and optimizing applications, ensuring a smooth and efficient user experience.",
           "technos": "Go, ReactJS, Elasticsearch, Jenkins, Kubernetes"
+        },
+        {
+          "title": "Mentor for Application Development - JavaScript React",
+          "date": "since June 2023",
+          "company": "OpenClassrooms",
+          "description": "As a mentor developer for applications at OpenClassrooms, I actively accompany students throughout their diploma training in JavaScript React. I guide them through their autonomous learning, answer their inquiries, and share my expertise on best practices in web development.",
+          "technos": "HTML, CSS, Javascript, ReactJS"
         },
         {
           "title": "Full-stack web developer",
           "date": "from June 2021 to June 2022",
           "place": "Nantes - France",
           "company": "ITEA",
-          "description": "I worked as a full-stack developer (back-end oriented) for a company editing a web management solution for central reservations services.",
+          "description": "At ITEA, I held a full-stack web developer position, with a more pronounced orientation towards the back-end. I contributed to the development and enhancement of a management solution intended for tourist reservation centers, ensuring it met the specific needs of the sector.",
           "technos": "PHP5, AngularJS, VueJs, SQL and Informix"
         },
         {
@@ -344,7 +358,7 @@
           "date": "from August 2018 to August 2019",
           "place": "Limoges - France",
           "company": "Tripnity",
-          "description": "Professionalisation contract during my professional degree. I developed an internal customer relationship platform for Iconosquare.",
+          "description": "During my internship at Tripnity, as part of my professional license, I developed an internal customer support platform for the Iconosquare product. My role included designing, developing, and implementing new features to enhance the efficiency of customer support.",
           "technos": "PHP7 with ZendFramework, JavaScript and Jquery, HTML5/CSS3 with Sass, MySQL and Cassandra."
         }
       ]
