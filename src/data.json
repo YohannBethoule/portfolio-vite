@@ -250,6 +250,17 @@
           "url": "https://support.iconosquare.com/",
           "long": "Développement d'une plateforme interne de support client: gestion du ticketing et des articles de la FAQ (CRM). J'ai participé à la conception des fonctionnalités de l'application en lien avec l'équipe responsable du support client basée à Berlin, ainsi qu'au maintien de l'application et son évolution après son déploiement.",
           "technos": ["jQuery", "PHP", "ZendFramework", "SQL", "Cassandra"]
+        },
+        {
+          "title": "Bizkit Dungeon",
+          "short": "Projet personnel",
+          "imgName": "bizkitdungeon",
+          "url": "https://bizkitdungeon.app/",
+          "github": "https://github.com/YohannBethoule/BizkitPWA",
+          "long": "Cette application web est l'aboutissement du long travail de création d'un jeu de société pour soirées alcoolisées.",
+          "technos": [
+            "Vue.JS"
+          ]
         }
       ]
     }
@@ -501,6 +512,17 @@
             "ZendFramework",
             "SQL",
             "Cassandra"
+          ]
+        },
+        {
+          "title": "Bizkit Dungeon",
+          "short": "Projet personnel",
+          "imgName": "bizkitdungeon",
+          "url": "https://bizkitdungeon.app/",
+          "github": "https://github.com/YohannBethoule/BizkitPWA",
+          "long": "This web application is the culmination of the long process of creating a board game for drinking parties.",
+          "technos": [
+            "Vue.JS"
           ]
         }
       ]
