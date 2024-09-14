@@ -35,7 +35,6 @@ export default {
   data() {
     return {
       offsets: {
-        "page-studies": 0,
         "page-projects": 0,
         "page-jobs": 0,
         "page-infos": 0,

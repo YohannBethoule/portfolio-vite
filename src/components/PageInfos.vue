@@ -13,12 +13,6 @@
         </AppLink>
       </AppH3>
       <AppH3>
-        <AppLink :href="'tel:'+infos.phone">
-          <font-awesome-icon class="mr-2" icon="phone"/>
-          {{ infos.phone }}
-        </AppLink>
-      </AppH3>
-      <AppH3>
         <font-awesome-icon icon="home" class="mr-2"/>
         {{ infos.postalCode }} {{ infos.city }}, {{ infos.country.toUpperCase() }}
       </AppH3>
