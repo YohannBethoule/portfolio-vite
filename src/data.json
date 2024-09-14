@@ -147,6 +147,10 @@
               "image": "react.svg"
             },
             {
+              "name": "Next.js",
+              "image": "next.svg"
+            },
+            {
               "name": "Vue.js",
               "image": "vue.svg"
             },
@@ -398,6 +402,10 @@
             {
               "name": "React",
               "image": "react.svg"
+            },
+            {
+              "name": "Next.js",
+              "image": "next.svg"
             },
             {
               "name": "Vue.js",
