@@ -1,19 +1,19 @@
 <template>
     <div class="flex scroll-smooth">
         <button
-            alt="open menu"
+            aria-label="open menu"
             class="fixed top-5 left-5 text-3xl text-[#D50000] z-20"
             @click="toggleNav(true)">
             <font-awesome-icon icon="bars"/>
         </button>
         <div class="flex absolute top-5 right-5 z-20">
             <button
-                alt="french language"
+                aria-label="french language"
                 class="mr-5 w-10 hover:border-2 border-white" @click="lang='FR'"><img alt="french flag"
                                                                                       src="/images/fr.svg"/>
             </button>
             <button
-                alt="english language"
+                aria-label="english language"
                 class="w-10 hover:border-2 border-white" @click="lang='EN'"><img alt="english flag"
                                                                                  src="/images/gb.svg"/>
             </button>
@@ -38,9 +38,6 @@
             </Section>
             <Section id="page-jobs" :dataSet="trad.jobs">
                 <ArticleJobs :jobs="trad.jobs"/>
-            </Section>
-            <Section id="page-studies" :dataSet="trad.studies" dark>
-                <ArticleStudies :studies="trad.studies"/>
             </Section>
         </main>
     </div>

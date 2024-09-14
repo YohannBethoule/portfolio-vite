@@ -22,11 +22,6 @@
         "title": "Expériences professionnelles",
         "icon": "briefcase",
         "anchor": "page-jobs"
-      },
-      {
-        "title": "Formations",
-        "icon": "graduation-cap",
-        "anchor": "page-studies"
       }
     ],
     "infos": {
@@ -39,7 +34,6 @@
       "linkedin": "https://www.linkedin.com/in/yohann-bethoule",
       "city": "Nantes",
       "postalCode": "44000",
-      "phone": "06 12  31 25 54",
       "country": "France",
       "description": "Actuellement basé à Nantes, j'occupe le poste de développeur web full-stack pour une société éditant des sites de vente et location de biens immobiliers."
     },
@@ -52,7 +46,7 @@
           "date": 2019,
           "place": "IUT de Limoges",
           "main_subjects": [
-            "Langages: HTML5, CSS3, JavaScript, PHP", "Bases de données: SQL, MongoDB, Cassandra", "Framework: Symfony, Node.JS, Bootstrap, Angular.JS, Vue.JS"
+            "Langages: HTML5, CSS3, JavaScript, PHP", "Bases de données: SQL, MongoDB, Cassandra", "Framework: Symfony, Node.JS, Bootstrap, Angular.JS, Vue.js"
           ],
           "secondary_subjects": [
             "Qualité web, Création d'entreprise"
@@ -81,14 +75,14 @@
           "place": "Nantes",
           "company": "Figaro Classifieds",
           "description": "En tant que développeur web full-stack chez Figaro Classifieds, je travaille sur des plateformes dédiées à la vente et à la location de biens immobiliers. Je suis responsable de la conception, du développement et de l'optimisation des applications, en garantissant une expérience utilisateur fluide et efficace.",
-          "technos": "Go, ReactJS, Elasticsearch, Jenkins, Kubernetes"
+          "technos": "Go, React, Elasticsearch, Jenkins, Kubernetes"
         },
         {
           "title": "Mentor développeur d'application - JavaScript React",
           "date": "depuis juin 2023",
           "company": "OpenClassrooms",
           "description": "En tant que mentor développeur d'application chez OpenClassrooms, j'accompagne activement des étudiants tout au long de leur formation diplômante en JavaScript React. Je les guide à travers leur apprentissage autonome, réponds à leurs interrogations et partage mes connaissances sur les meilleures pratiques du développement web.",
-          "technos": "HTML, CSS, Javascript, ReactJS"
+          "technos": "HTML, CSS, Javascript, React"
         },
         {
           "title": "Développeur web full-stack",
@@ -96,7 +90,7 @@
           "place": "Nantes",
           "company": "ITEA",
           "description": "Chez ITEA, j'ai occupé un poste de développeur web full-stack, avec une orientation plus marquée vers le back-end. J'ai contribué au développement et à l'amélioration d'une solution de gestion destinée aux centrales de réservation touristique, en veillant à répondre aux besoins spécifiques du secteur.",
-          "technos": "PHP5, AngularJS, VueJs, bases de données SQL et Informix"
+          "technos": "PHP5, AngularJS, Vue.js, bases de données SQL et Informix"
         },
         {
           "title": "Développeur web full-stack",
@@ -124,16 +118,12 @@
           "label": "Back-end",
           "skillset": [
             {
-              "name": "PHP",
-              "image": "php.svg"
-            },
-            {
               "name": "Go",
               "image": "golang.svg"
             },
             {
-              "name": "NodeJS",
-              "image": "nodejs.svg"
+              "name": "PHP",
+              "image": "php.svg"
             },
             {
               "name": "SQL",
@@ -142,6 +132,10 @@
             {
               "name": "Elasticsearch",
               "image": "elasticsearch.svg"
+            },
+            {
+              "name": "NodeJS",
+              "image": "nodejs.svg"
             }
           ]
         },
@@ -149,20 +143,12 @@
           "label": "Front-end",
           "skillset": [
             {
-              "name": "Vue",
-              "image": "vue.svg"
-            },
-            {
               "name": "React",
               "image": "react.svg"
             },
             {
-              "name": "Angular",
-              "image": "angular.svg"
-            },
-            {
-              "name": "Bootstrap",
-              "image": "bootstrap.svg"
+              "name": "Vue.js",
+              "image": "vue.svg"
             },
             {
               "name": "TailwindCSS",
@@ -171,26 +157,35 @@
           ]
         },
         {
-          "label": "Outils",
+          "label": "DevOps",
           "skillset": [
             {
-              "name": "Git",
-              "image": "git.svg"
+              "name": "Kubernetes",
+              "image": "kubernets.svg"
+            },
+            {
+              "name": "Google Cloud Platform",
+              "image": "gcp.svg"
             },
             {
               "name": "Docker",
               "image": "docker.svg"
             },
             {
-              "name": "Kubernetes",
-              "image": "kubernets.svg"
+              "name": "Jenkins",
+              "image": "jenkins.svg"
+            }
+          ]
+        },
+        {
+          "label": "Collaboration",
+          "skillset": [
+            {
+              "name": "Git",
+              "image": "git.svg"
             },
             {
-              "name": "Wix",
-              "image": "wix.svg"
-            },
-            {
-              "name": "Méthode agile",
+              "name": "Méthode SCRUM",
               "image": ""
             }
           ]
@@ -236,7 +231,7 @@
           "long": "J'ai participé à l'évolution d'une application web permettant aux centrales de réservation touristique comme les labels Gîtes de France de gérer leurs ressources.\nCe projet existant depuis plus de 20 ans et étant en constante évolution depuis sa création, j'ai appris à conjuguer remboursement de la dette technique et développement de fonctionnalités métiers complexes.",
           "url": "https://itea.fr/",
           "technos": [
-            "Vue",
+            "Vue.js",
             "AngularJS",
             "Bootstrap",
             "PHP",
@@ -259,7 +254,7 @@
           "github": "https://github.com/YohannBethoule/BizkitPWA",
           "long": "Cette application web est l'aboutissement du long travail de création d'un jeu de société pour soirées alcoolisées.",
           "technos": [
-            "Vue.JS"
+            "Vue.js"
           ]
         }
       ]
@@ -288,11 +283,6 @@
         "title": "Experience",
         "icon": "briefcase",
         "anchor": "page-jobs"
-      },
-      {
-        "title": "Education",
-        "icon": "graduation-cap",
-        "anchor": "page-studies"
       }
     ],
     "infos": {
@@ -303,7 +293,6 @@
       "linkedin": "https://www.linkedin.com/in/yohann-bethoule",
       "city": "Nantes",
       "postalCode": "44000",
-      "phone": "+336 12  31 25 54",
       "country": "France",
       "description": "Currently living in Nantes, I work as a full-stack web developer company editing real estate sales and rental websites."
     },
@@ -316,7 +305,7 @@
           "date": 2019,
           "place": "IUT Limoges - France",
           "main_subjects": [
-            "Languages: HTML5, CSS3, JavaScript, PHP", "Databases: SQL, MongoDB, Cassandra", "Frameworks: Symfony, Node.JS, Bootstrap, Angular.JS, Vue.JS"
+            "Languages: HTML5, CSS3, JavaScript, PHP", "Databases: SQL, MongoDB, Cassandra", "Frameworks: Symfony, Node.JS, Bootstrap, AngularJS, Vue.js"
           ]
         },
         {
@@ -339,14 +328,14 @@
           "place": "Nantes - France",
           "company": "Figaro Classifieds",
           "description": "As a full-stack web developer at Figaro Classifieds, I worked on platforms dedicated to the sale and rental of real estate properties. I was responsible for designing, developing, and optimizing applications, ensuring a smooth and efficient user experience.",
-          "technos": "Go, ReactJS, Elasticsearch, Jenkins, Kubernetes"
+          "technos": "Go, React, Elasticsearch, Jenkins, Kubernetes"
         },
         {
           "title": "Mentor for Application Development - JavaScript React",
           "date": "since June 2023",
           "company": "OpenClassrooms",
           "description": "As a mentor developer for applications at OpenClassrooms, I actively accompany students throughout their diploma training in JavaScript React. I guide them through their autonomous learning, answer their inquiries, and share my expertise on best practices in web development.",
-          "technos": "HTML, CSS, Javascript, ReactJS"
+          "technos": "HTML, CSS, Javascript, React"
         },
         {
           "title": "Full-stack web developer",
@@ -354,7 +343,7 @@
           "place": "Nantes - France",
           "company": "ITEA",
           "description": "At ITEA, I held a full-stack web developer position, with a more pronounced orientation towards the back-end. I contributed to the development and enhancement of a management solution intended for tourist reservation centers, ensuring it met the specific needs of the sector.",
-          "technos": "PHP5, AngularJS, VueJs, SQL and Informix"
+          "technos": "PHP5, AngularJS, Vue.js, SQL and Informix"
         },
         {
           "title": "Full-stack web developer",
@@ -382,16 +371,12 @@
           "label": "Back-end",
           "skillset": [
             {
-              "name": "PHP",
-              "image": "php.svg"
-            },
-            {
               "name": "Go",
               "image": "golang.svg"
             },
             {
-              "name": "NodeJS",
-              "image": "nodejs.svg"
+              "name": "PHP",
+              "image": "php.svg"
             },
             {
               "name": "SQL",
@@ -400,6 +385,10 @@
             {
               "name": "Elasticsearch",
               "image": "elasticsearch.svg"
+            },
+            {
+              "name": "NodeJS",
+              "image": "nodejs.svg"
             }
           ]
         },
@@ -407,20 +396,12 @@
           "label": "Front-end",
           "skillset": [
             {
-              "name": "Vue",
-              "image": "vue.svg"
-            },
-            {
               "name": "React",
               "image": "react.svg"
             },
             {
-              "name": "Angular",
-              "image": "angular.svg"
-            },
-            {
-              "name": "Bootstrap",
-              "image": "bootstrap.svg"
+              "name": "Vue.js",
+              "image": "vue.svg"
             },
             {
               "name": "TailwindCSS",
@@ -429,25 +410,35 @@
           ]
         },
         {
-          "label": "Tools",
+          "label": "DevOps",
+          "skillset": [
+            {
+              "name": "Kubernetes",
+              "image": "kubernets.svg"
+            },
+            {
+              "name": "Google Cloud Platform",
+              "image": "gcp.svg"
+            },
+            {
+              "name": "Docker",
+              "image": "docker.svg"
+            },
+            {
+              "name": "Jenkins",
+              "image": "jenkins.svg"
+            }
+          ]
+        },
+        {
+          "label": "Collaboration",
           "skillset": [
             {
               "name": "Git",
               "image": "git.svg"
             },
             {
-              "name": "Docker"
-            },
-            {
-              "name": "Kubernetes",
-              "image": "kubernets.svg"
-            },
-            {
-              "name": "Wix",
-              "image": "wix.svg"
-            },
-            {
-              "name": "Agile method",
+              "name": "SCRUM Method",
               "image": ""
             }
           ]
@@ -493,7 +484,7 @@
           "long": "I participated to the evolution of a web ERP allowing central reservation services to manage their ressources. This project being more than 20 years old, I have learned to combine technical debt relief and implementation of complex new features.",
           "url": "https://itea.fr/",
           "technos": [
-            "Vue",
+            "Vue.js",
             "AngularJS",
             "Bootstrap",
             "PHP",
@@ -522,7 +513,7 @@
           "github": "https://github.com/YohannBethoule/BizkitPWA",
           "long": "This web application is the culmination of the long process of creating a board game for drinking parties.",
           "technos": [
-            "Vue.JS"
+            "Vue.js"
           ]
         }
       ]
