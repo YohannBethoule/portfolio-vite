@@ -75,14 +75,25 @@
           "place": "Nantes",
           "company": "Figaro Classifieds",
           "description": "En tant que développeur web full-stack chez Figaro Classifieds, je travaille sur des plateformes dédiées à la vente et à la location de biens immobiliers. Je suis responsable de la conception, du développement et de l'optimisation des applications, en garantissant une expérience utilisateur fluide et efficace.",
-          "technos": "Go, React, Elasticsearch, Jenkins, Kubernetes"
+          "technos": [
+            "Go",
+            "Next.js",
+            "Elasticsearch",
+            "Jenkins",
+            "Kubernetes"
+          ]
         },
         {
           "title": "Mentor développeur d'application - JavaScript React",
           "date": "depuis juin 2023",
           "company": "OpenClassrooms",
           "description": "En tant que mentor développeur d'application chez OpenClassrooms, j'accompagne activement des étudiants tout au long de leur formation diplômante en JavaScript React. Je les guide à travers leur apprentissage autonome, réponds à leurs interrogations et partage mes connaissances sur les meilleures pratiques du développement web.",
-          "technos": "HTML, CSS, Javascript, React"
+          "technos": [
+            "React",
+            "Javascript",
+            "HTML",
+            "CSS"
+          ]
         },
         {
           "title": "Développeur web full-stack",
@@ -90,7 +101,12 @@
           "place": "Nantes",
           "company": "ITEA",
           "description": "Chez ITEA, j'ai occupé un poste de développeur web full-stack, avec une orientation plus marquée vers le back-end. J'ai contribué au développement et à l'amélioration d'une solution de gestion destinée aux centrales de réservation touristique, en veillant à répondre aux besoins spécifiques du secteur.",
-          "technos": "PHP5, AngularJS, Vue.js, bases de données SQL et Informix"
+          "technos": [
+            "PHP5",
+            "AngularJS",
+            "Vue.js",
+            "SQL"
+          ]
         },
         {
           "title": "Développeur web full-stack",
@@ -98,7 +114,12 @@
           "place": "Nantes",
           "company": "Intellia",
           "description": "Poste de développeur web full-stack orienté back-end dans une agence de développement digitale. Le coeur de l'activité était les applications métiers, avec un focus important sur le développement intranet.",
-          "technos": "Visual Basic avec ASP.NET, JavaScript et Jquery, Bootstrap4, base de données SQL Server."
+          "technos": [
+            "ASP.NET",
+            "JQuery",
+            "Bootstrap4",
+            "SQL Server"
+          ]
         },
         {
           "title": "Développeur web back-end en alternance",
@@ -106,7 +127,13 @@
           "place": "Limoges",
           "company": "Tripnity",
           "description": "Pendant mon alternance chez Tripnity, dans le cadre de ma licence professionnelle, j'ai développé une plateforme interne de support client pour le produit Iconosquare. Mon rôle comprenait la conception, le développement et la mise en œuvre de nouvelles fonctionnalités pour améliorer l'efficacité du support client.",
-          "technos": "PHP7 avec ZendFramework, JavaScript et Jquery, HTML5/CSS3 avec Sass, bases de données MySQL et Cassandra."
+          "technos": [
+            "PHP7",
+            "JQuery",
+            "Sass",
+            "MySQL",
+            "Cassandra"
+          ]
         }
       ]
     },
@@ -222,7 +249,7 @@
           "long": "J'ai travaillé à la maintenance et l'évolution d'un site de vente de biens immobiliers neufs en France. Développement d'un front-end en React avec un focus important sur le SEO, et d'un back-end en microservices Go suivant une architecture hexagonale et les principes du domain-driven development. ",
           "technos": [
             "Go",
-            "React",
+            "Next.js",
             "Elasticsearch",
             "Jenkins",
             "Kubernetes"
@@ -332,14 +359,26 @@
           "place": "Nantes - France",
           "company": "Figaro Classifieds",
           "description": "As a full-stack web developer at Figaro Classifieds, I worked on platforms dedicated to the sale and rental of real estate properties. I was responsible for designing, developing, and optimizing applications, ensuring a smooth and efficient user experience.",
-          "technos": "Go, React, Elasticsearch, Jenkins, Kubernetes"
+          "technos": [
+            "Go",
+            "Next.js",
+            "Elasticsearch",
+            "Jenkins",
+            "Kubernetes"
+          ]
         },
         {
           "title": "Mentor for Application Development - JavaScript React",
           "date": "since June 2023",
           "company": "OpenClassrooms",
           "description": "As a mentor developer for applications at OpenClassrooms, I actively accompany students throughout their diploma training in JavaScript React. I guide them through their autonomous learning, answer their inquiries, and share my expertise on best practices in web development.",
-          "technos": "HTML, CSS, Javascript, React"
+          "technos": [
+            "React",
+            "Javascript",
+            "HTML",
+            "CSS",
+            "Sass"
+          ]
         },
         {
           "title": "Full-stack web developer",
@@ -347,7 +386,12 @@
           "place": "Nantes - France",
           "company": "ITEA",
           "description": "At ITEA, I held a full-stack web developer position, with a more pronounced orientation towards the back-end. I contributed to the development and enhancement of a management solution intended for tourist reservation centers, ensuring it met the specific needs of the sector.",
-          "technos": "PHP5, AngularJS, Vue.js, SQL and Informix"
+          "technos": [
+            "PHP5",
+            "AngularJS",
+            "Vue.js",
+            "SQL"
+          ]
         },
         {
           "title": "Full-stack web developer",
@@ -355,7 +399,12 @@
           "place": "Nantes - France",
           "company": "Intellia",
           "description": "I worked as a full-stack developer (back-end oriented) in a digital agency. We mainly developed ERP solutions for public organizations, including several intranets.",
-          "technos": "Visual Basic with ASP.NET, JavaScript and Jquery, Bootstrap4, SQL Server."
+          "technos": [
+            "ASP.NET",
+            "JQuery",
+            "Bootstrap4",
+            "SQL Server"
+          ]
         },
         {
           "title": "Web developer trainee",
@@ -363,7 +412,13 @@
           "place": "Limoges - France",
           "company": "Tripnity",
           "description": "During my internship at Tripnity, as part of my professional license, I developed an internal customer support platform for the Iconosquare product. My role included designing, developing, and implementing new features to enhance the efficiency of customer support.",
-          "technos": "PHP7 with ZendFramework, JavaScript and Jquery, HTML5/CSS3 with Sass, MySQL and Cassandra."
+          "technos": [
+            "PHP7 with ZendFramework",
+            "JQuery",
+            "Sass",
+            "MySQL",
+            "Cassandra"
+          ]
         }
       ]
     },
@@ -479,7 +534,7 @@
           "long": "I worked on maintenance and evolution of a website selling new real estates in France. I developed a front-end in React with a major focus on SEO, and a back-end with Go microservices following a hexagonal architecture and domain-driven development principles.",
           "technos": [
             "Go",
-            "React",
+            "Next.js",
             "Elasticsearch",
             "Jenkins",
             "Kubernetes"

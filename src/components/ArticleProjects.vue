@@ -26,24 +26,24 @@
     </template>
   </carousel>
   <section  v-for="project in projects.data" :key="project.title" class="md:hidden">
-    <AppSection :title="project.title"
+      <Article :title="project.title"
                 :date="project.short">
       <h2 class="text-lg">
         <AppLink :href="project.url">{{ project.url }}</AppLink>
       </h2>
       <img v-if="project.imgName" :alt="project.title" :src="'/images/projects/' + project.imgName + '.webp'"
            class="w-full my-2"/>
-      <div>{{ project.long }}</div>
-      <div class="flex flex-wrap mt-5">
-        <SkillChip v-for="skill in project.technos" class="mr-5 mb-5">{{ skill }}</SkillChip>
+          <p>{{ project.long }}</p>
+          <div class="flex flex-wrap">
+              <SkillChip v-for="skill in project.technos" class="mr-3 mb-2">{{ skill }}</SkillChip>
       </div>
-    </AppSection>
+      </Article>
   </section>
 
 </template>
 
 <script setup>
-import AppSection from "./AppSection.vue";
+import Article from "./Article.vue";
 import SkillChip from "./SkillChip.vue";
 import {Carousel, Navigation, Pagination, Slide} from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
