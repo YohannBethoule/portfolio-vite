@@ -10,9 +10,10 @@ const props = defineProps({
 
 <template>
     <div class="flex flex-col mx-auto text-center space-y-5">
-
-        <h1 class="text-5xl md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r  from-[#D50000] via-[#E60026] to-violet-600">
-            <img alt="my logo" class="inline h-16 w-16 md:h-28 md:w-28 mb-5" src="/logo.webp"/> {{ infos.name }}</h1>
+        <h1 class="text-5xl md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#D50000] via-[#E60026] to-violet-600">
+            <img alt="my logo" class="mx-auto h-20 w-20 mb-5 md:h-28 md:w-28 md:inline" src="/logo.webp"/>
+            {{ infos.name }}
+        </h1>
 
         <ArticleHeading>{{ infos.subtitle }}</ArticleHeading>
         <div class="flex flex-col space-y-2">
