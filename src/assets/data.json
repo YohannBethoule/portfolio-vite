@@ -46,7 +46,9 @@
           "date": 2019,
           "place": "IUT de Limoges",
           "main_subjects": [
-            "Langages: HTML5, CSS3, JavaScript, PHP", "Bases de données: SQL, MongoDB, Cassandra", "Framework: Symfony, Node.JS, Bootstrap, Angular.JS, Vue.js"
+            "Langages: HTML5, CSS3, JavaScript, PHP",
+            "Bases de données: SQL, MongoDB, Cassandra",
+            "Framework: Symfony, Node.JS, Bootstrap, Angular.JS, Vue.js"
           ],
           "secondary_subjects": [
             "Qualité web, Création d'entreprise"
@@ -57,10 +59,13 @@
           "date": 2018,
           "place": "IUT de Clermont-Ferrand",
           "main_subjects": [
-            "Langages: HTML5, CSS3, JavaScript, PHP, C, C#, XAML, Java", "Bases de données SQL", "Modélisation: Merise, UML"
+            "Langages: HTML5, CSS3, JavaScript, PHP, C, C#, XAML, Java",
+            "Bases de données SQL",
+            "Modélisation: Merise, UML"
           ],
           "secondary_subjects": [
-            "Langages: Ruby, Pro-C", "Gestion d'entreprise"
+            "Langages: Ruby, Pro-C",
+            "Gestion d'entreprise"
           ]
         }
       ]
@@ -80,14 +85,15 @@
             "Next.js",
             "Elasticsearch",
             "Jenkins",
-            "Kubernetes"
+            "Kubernetes",
+            "GCP"
           ]
         },
         {
           "title": "Mentor développeur d'application - JavaScript React",
-          "date": "depuis juin 2023",
+          "date": "de juin 2023 à août 2024",
           "company": "OpenClassrooms",
-          "description": "En tant que mentor développeur d'application chez OpenClassrooms, j'accompagne activement des étudiants tout au long de leur formation diplômante en JavaScript React. Je les guide à travers leur apprentissage autonome, réponds à leurs interrogations et partage mes connaissances sur les meilleures pratiques du développement web.",
+          "description": "En tant que mentor en développement d'applications chez OpenClassrooms, j'accompagnais des étudiants tout au long de leur formation diplômante en JavaScript React. Je les guidais dans leur apprentissage autonome, répondais à leurs questions et partageais mes connaissances sur les meilleures pratiques du développement web.",
           "technos": [
             "React",
             "Javascript",
@@ -223,7 +229,7 @@
         }
       ]
     },
-    "projects" : {
+    "projects": {
       "title": "Projets",
       "icon": "cogs",
       "data": [
@@ -252,7 +258,8 @@
             "Next.js",
             "Elasticsearch",
             "Jenkins",
-            "Kubernetes"
+            "Kubernetes",
+            "GCP"
           ]
         },
         {
@@ -275,7 +282,13 @@
           "imgName": "iconosquare",
           "url": "https://support.iconosquare.com/",
           "long": "Développement d'une plateforme interne de support client: gestion du ticketing et des articles de la FAQ (CRM). J'ai participé à la conception des fonctionnalités de l'application en lien avec l'équipe responsable du support client basée à Berlin, ainsi qu'au maintien de l'application et son évolution après son déploiement.",
-          "technos": ["jQuery", "PHP", "ZendFramework", "SQL", "Cassandra"]
+          "technos": [
+            "jQuery",
+            "PHP",
+            "ZendFramework",
+            "SQL",
+            "Cassandra"
+          ]
         },
         {
           "title": "Bizkit Dungeon",
@@ -336,7 +349,9 @@
           "date": 2019,
           "place": "IUT Limoges - France",
           "main_subjects": [
-            "Languages: HTML5, CSS3, JavaScript, PHP", "Databases: SQL, MongoDB, Cassandra", "Frameworks: Symfony, Node.JS, Bootstrap, AngularJS, Vue.js"
+            "Languages: HTML5, CSS3, JavaScript, PHP",
+            "Databases: SQL, MongoDB, Cassandra",
+            "Frameworks: Symfony, Node.JS, Bootstrap, AngularJS, Vue.js"
           ]
         },
         {
@@ -344,7 +359,9 @@
           "date": 2018,
           "place": "IUT Clermont-Ferrand - France",
           "main_subjects": [
-            "Languages: HTML5, CSS3, JavaScript, PHP, C, C#, XAML, Java", "SQL databases", "Modeling: Merise, UML"
+            "Languages: HTML5, CSS3, JavaScript, PHP, C, C#, XAML, Java",
+            "SQL databases",
+            "Modeling: Merise, UML"
           ]
         }
       ]
@@ -364,14 +381,15 @@
             "Next.js",
             "Elasticsearch",
             "Jenkins",
-            "Kubernetes"
+            "Kubernetes",
+            "GCP"
           ]
         },
         {
           "title": "Mentor for Application Development - JavaScript React",
-          "date": "since June 2023",
+          "date": "from June 2023 to August 2024",
           "company": "OpenClassrooms",
-          "description": "As a mentor developer for applications at OpenClassrooms, I actively accompany students throughout their diploma training in JavaScript React. I guide them through their autonomous learning, answer their inquiries, and share my expertise on best practices in web development.",
+          "description": "As a mentor in application development at OpenClassrooms, I supported students throughout their degree program in JavaScript and React. I guided them in their self-directed learning, answered their questions, and shared my knowledge of best practices in web development.",
           "technos": [
             "React",
             "Javascript",
@@ -508,7 +526,7 @@
         }
       ]
     },
-    "projects" : {
+    "projects": {
       "title": "Projects",
       "icon": "cogs",
       "data": [
@@ -537,7 +555,8 @@
             "Next.js",
             "Elasticsearch",
             "Jenkins",
-            "Kubernetes"
+            "Kubernetes",
+            "GCP"
           ]
         },
         {
